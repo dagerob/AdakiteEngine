@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{938DA424-5B38-47BF-B52C-40ECEECE9265}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdakiteEngine", "AdakiteEngine\AdakiteEngine.vcxproj", "{90664523-D5B5-4D88-A1D5-1CC36EF489E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90664523-D5B5-4D88-A1D5-1CC36EF489E8}.Debug|x64.ActiveCfg = Debug|x64
+		{90664523-D5B5-4D88-A1D5-1CC36EF489E8}.Debug|x64.Build.0 = Debug|x64
+		{90664523-D5B5-4D88-A1D5-1CC36EF489E8}.Release|x64.ActiveCfg = Release|x64
+		{90664523-D5B5-4D88-A1D5-1CC36EF489E8}.Release|x64.Build.0 = Release|x64
+		{938DA424-5B38-47BF-B52C-40ECEECE9265}.Debug|x64.ActiveCfg = Debug|x64
+		{938DA424-5B38-47BF-B52C-40ECEECE9265}.Debug|x64.Build.0 = Debug|x64
+		{938DA424-5B38-47BF-B52C-40ECEECE9265}.Release|x64.ActiveCfg = Release|x64
+		{938DA424-5B38-47BF-B52C-40ECEECE9265}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F238300F-391C-46C1-8CB9-9007BCD789AB}
+	EndGlobalSection
+EndGlobal
