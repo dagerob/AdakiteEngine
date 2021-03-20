@@ -1,0 +1,3 @@
+[submodule "AdakiteEngine/vendor/spdlog"]
+	path = AdakiteEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

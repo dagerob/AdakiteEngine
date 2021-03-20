@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Engine\AdakiteEngine\bin\Debug-x64\AdakiteEngine\AdakiteEngine.dll</FullPath>
+      <FullPath>D:\Engine\AdakiteEngine\bin\Debug-windows-x86_64\AdakiteEngine\AdakiteEngine.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Engine\AdakiteEngine\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>
+      <FullPath>D:\Engine\AdakiteEngine\bin\Debug-windows-x86_64\Sandbox\Sandbox.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
