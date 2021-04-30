@@ -9,8 +9,6 @@ int main(int argc, char** argv) {
 
 	Adakite::Log::Init();
 	ADK_CORE_WARN("Initialized the logs");
-	int a = 8;
-	ADK_INFO("Initialized the logs {0}",a);
 
 	auto app = Adakite::CreateApplication();
 	app->Run();

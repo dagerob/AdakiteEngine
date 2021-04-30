@@ -19,6 +19,9 @@
     <ClInclude Include="src\Adakite\Log.h">
       <Filter>Adakite</Filter>
     </ClInclude>
+    <ClInclude Include="src\Adakite\Window.h">
+      <Filter>Adakite</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Adakite\Application.cpp">
@@ -27,5 +30,9 @@
     <ClCompile Include="src\Adakite\Log.cpp">
       <Filter>Adakite</Filter>
     </ClCompile>
+    <ClCompile Include="src\Adakite\Window.cpp">
+      <Filter>Adakite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c" />
   </ItemGroup>
 </Project>

@@ -20,11 +20,20 @@ workspace "AdakiteEngine"
 
 		files{
 			"%{prj.name}/src/**.h",
-			"%{prj.name}/src/**.cpp"
+			"%{prj.name}/src/**.cpp",
+			"%{prj.name}/src/**.c"
+
 		}
 
 		includedirs{
-			"%{prj.name}/vendor/spdlog/include"
+			"%{prj.name}/src",
+			"%{prj.name}/vendor/spdlog/include",
+			"%{prj.name}/vendor/GLFW/include"
+		}
+
+		links{
+			"glfw3.lib",
+			"opengl32.lib"
 		}
 
 		filter "system:windows"
@@ -44,15 +53,21 @@ workspace "AdakiteEngine"
 
 		filter "configurations:Debug"
 			defines {"ADK_DEBUG", "_DEBUG"}
+			buildoptions "/MTd"
 			symbols "On"
+			libdirs "%{prj.name}/vendor/GLFW/libsD"
 
 		filter "configurations:Release"
 			defines {"ADK_RELEASE", "_DEBUG"}
+			buildoptions "/MTd"
 			optimize "On"
+			libdirs "%{prj.name}/vendor/GLFW/libsD"
 
 		filter "configurations:Dist"
 			defines {"ADK_DIST", "NDEBUG"}
+			buildoptions "/MT"
 			optimize "On"
+			libdirs "%{prj.name}/vendor/GLFW/libs"
 
 	project "Sandbox"
 		location "Sandbox"
@@ -89,11 +104,14 @@ workspace "AdakiteEngine"
 		filter "configurations:Debug"
 			defines {"ADK_DEBUG", "_DEBUG"}
 			symbols "On"
+			buildoptions "/MTd"
 
 		filter "configurations:Release"
 			defines {"ADK_RELEASE", "_DEBUG"}
 			optimize "On"
+			buildoptions "/MTd"
 
 		filter "configurations:Dist"
 			defines {"ADK_DIST", "NDEBUG"}
 			optimize "On"
+			buildoptions "/MT"
